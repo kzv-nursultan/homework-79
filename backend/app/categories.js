@@ -1,6 +1,4 @@
 const express = require('express');
-const { nanoid } = require('nanoid');
-const fileDb = require('../fileDb');
 const mysqlDb = require('../mysqlDb');
 
 const router = express.Router();

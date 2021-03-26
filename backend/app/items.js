@@ -1,7 +1,6 @@
 const express = require('express');
 const multer = require('multer');
 const path = require('path');
-const fileDb = require('../fileDb');
 const config = require('../config');
 const { nanoid } = require('nanoid');
 const mysqlDb = require('../mysqlDb');
